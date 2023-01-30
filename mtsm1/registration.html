@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Placement</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="placement-icon.png" type="image/x-icon">
+    <style>
+    body{
+      background-image:url(images/asd.jpg);
+    }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="index.html"><img src="logo.png" class="logo"></a>
+          </div>
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li class="active"><a href="#">About Us</a></li>
+            <li class="active"><a href="Contactus.html">Contact Us</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="SignIn.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="companyreg.html"><span class="glyphicon glyphicon-log-in"></span> Sign Up as Company</a></li>
+          </ul>
+          <!-- <ul class="nav navbar-nav navbar-right">
+            <li><a href="registration.html"><span class="glyphicon glyphicon-log-in"></span> Sign Up as Student</a></li>
+          </ul> -->
+        </div>
+      </nav> 
+      <div class="Registration-form">
+        <h1>Student Registration Form</h1>
+        <form method="post" action="signup.php">
+            <!-- <label for="fname">First Name :</label> -->
+            <p>First Name</p>
+            <input type="text" name="fname" id="fname">
+
+            <!-- <label for="mname">Middle Name :</label> -->
+            <p>Middle Name</p>
+            <input type="text" name="mname" id="mname">
+
+            <!-- <label for="lname">Last Name :</label> -->
+            <p>Last Name</p>
+            <input type="text" name="lname" id="lname">
+            
+            <!-- <label for="qualification">Qualification :</label> -->
+            <p>Qualification</p>
+            <input type="text" name="qualification" id="qualification">
+            
+            <!-- <label for="quali_status">Passed/Appeared In :</label> -->
+           <p>Passed/Appeared In</p>
+            <select id="quali_status" name="quali_status">
+                <option value="Passed">Passed</option>
+                <option value="1st Year">1st Year</option>
+                <option value="2nd Year">2nd Year</option>
+                <option value="3rd Year">3rd Year</option>
+              </select>
+
+            <!-- <label for="gender">Gender :</label> -->
+            <p>Gender</p>
+            <select id="gender" name="gender">
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Transgender">Transgender</option>
+              </select>           
+
+            <!-- <label for="phone">Mobile No :</label> -->
+            <p>Mobile No</p>
+            <input type="text" name="phone" id="phone">
+ 
+            <!-- <label for="email">Email Id :</label>  -->
+            <p>Email Id</p>
+            <input type="text" name="email" id="email">
+
+            <!-- <label for="address">Address :</label> -->
+            <p>Address</p>
+            <input type="text" name="address" id="address">
+
+            <!-- <label for="username1">Username :</label> -->
+            <p>Username</p>
+            <input type="text" name="username" id="username">
+
+            <!-- <label for="pass1">Password :</label> -->
+            <p>Password</p>
+            <input type="password" name="pass" id="pass">
+
+            <div class="button">
+                <input type="submit" name="submit" id="submit" value="Submit">
+              </div>
+</form>
+      </div>
+</body>
+</html>

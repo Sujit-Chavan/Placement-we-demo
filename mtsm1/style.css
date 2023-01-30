@@ -1,0 +1,89 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.header{
+  min-height: 100vh;
+  width: 100%;
+  background-image:url(images/image.png);
+  background-position:center;
+  background-size: cover;
+  position: relative;
+}
+/* _______________________________________________________________________________________________________________ */
+
+.Login-form{
+  width: 350px;
+  top:50%;
+  left: 50%;
+  transform:translate(-50%, -50%);
+  position: absolute;
+  color: #fff;
+
+}
+.Login-form h1{
+  font-size: 30px;
+  text-align: center;
+text-transform: uppercase;
+margin: 40px 0;
+}
+.Login-form label{
+  font-size: 20px 0;
+margin: 15px 0;
+}
+.Login-form input, select{
+font-size: 16px;
+width: 100%;
+padding: 15px 10px;
+border: 0;
+outline: none;
+border-radius: 5px;
+color: #000;
+}
+.button{
+  font-size: 18px;
+  font-weight: bold;
+  margin: 20px 80px;
+  padding: 10px 15px;
+  width: 50%;
+  color: #2b00ec;
+  border-radius: 5px;
+  border: none;
+}
+.button :hover {
+  background-color:rgb(205, 100, 253);
+}
+.Login-form p{
+  font-size: 16px;
+  margin: 20px 100px;
+}
+
+/* _____________________________________________________________________________________________________________ */
+
+.Registration-form{
+  position: absolute;
+  /* top: 50%; */
+  left: 32%;
+  /* transform: translate(-50%, -50%); */
+  width: 400px;
+
+}
+.Registration-form h1{
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 40px 0;
+}
+.Registration-form p{
+  font-size: 20px;
+  margin: 15px 0;
+}
+.Registration-form input{
+  font-size: 16px;
+  padding: 5px ;
+  width: 100%;
+  border: 0;
+  border-radius: 5px;
+  outline: none;
+}
